@@ -44,21 +44,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Day: Identifiable {
-    var id = UUID()
-    var dayOfWeek: String
-    var imageName: String
-    var temperature: Int
-}
-
-var weatherData = [
-    Day(dayOfWeek: "TUE", imageName: "cloud.sun.fill", temperature: 14),
-    Day(dayOfWeek: "WED", imageName: "sun.max.fill", temperature: 20),
-    Day(dayOfWeek: "THU", imageName: "wind.snow", temperature: 1),
-    Day(dayOfWeek: "FRI", imageName: "sunset.fill", temperature: 4),
-    Day(dayOfWeek: "SAT", imageName: "snow", temperature: -1),
-]
-
 struct WeatherDayView: View {
     
     var dayOfWeek: String
