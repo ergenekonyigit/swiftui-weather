@@ -1,5 +1,5 @@
-# SwiftUI-Weather App
+<h1 align="center">SwiftUI-Weather App</h1>
 
-My first SwiftUI project.
+<p align="center">My first SwiftUI project.</p>
 
-![screenshot](img.png)
+<p align="center"><img src="img.png"></img></p>
